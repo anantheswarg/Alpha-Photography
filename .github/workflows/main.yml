@@ -25,7 +25,7 @@ jobs:
       with:
         azcliversion: 2.30.0
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "cdnprofilealphaphotographyweb" --name "cdnendpointalphaphotographyweb " --resource-group "Default-ActivityLogAlerts"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "cdnprofilealphaphotographyweb" --name "cdnendpointalphaphotographyweb" --resource-group "Default-ActivityLogAlerts"
     # Azure logout
     - name: logout
       run: |
