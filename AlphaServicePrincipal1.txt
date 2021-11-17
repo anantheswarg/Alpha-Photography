@@ -7,3 +7,19 @@ az ad sp create-for-rbac -n "AlphaServicePrincipal" --role Owner --scopes /subsc
   "password": "WphnS-EYAM42Ure5F4r~ILy3e4D9Of7x4D",
   "tenant": "fc740532-23fa-4db4-a443-1030c2706065"
 }
+
+
+az ad sp create-for-rbac --name "AlphaServicePrincipal2" --role contributor --scopes /subscriptions/e7e93923-0a69-41da-8d81-c5d789b2d35c/resourceGroups/Default-ActivityLogAlerts --sdk-auth
+
+{
+  "clientId": "d9aee651-dcfb-46ce-a0ee-c717da67515d",
+  "clientSecret": "d~stD0C0vhqKiwSVCjIZZXEb2rb5fibcyL",
+  "subscriptionId": "e7e93923-0a69-41da-8d81-c5d789b2d35c",
+  "tenantId": "fc740532-23fa-4db4-a443-1030c2706065",
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+  "resourceManagerEndpointUrl": "https://management.azure.com/",
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+  "galleryEndpointUrl": "https://gallery.azure.com/",
+  "managementEndpointUrl": "https://management.core.windows.net/"
+}
