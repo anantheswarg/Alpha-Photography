@@ -1,0 +1,9 @@
+az ad sp create-for-rbac -n "AlphaServicePrincipal" --role Owner --scopes /subscriptions/e7e93923-0a69-41da-8d81-c5d789b2d35c
+
+{
+  "appId": "d75742a4-ee83-4545-b865-79b7f66750fd",
+  "displayName": "AlphaServicePrincipal",
+  "name": "d75742a4-ee83-4545-b865-79b7f66750fd",
+  "password": "WphnS-EYAM42Ure5F4r~ILy3e4D9Of7x4D",
+  "tenant": "fc740532-23fa-4db4-a443-1030c2706065"
+}
