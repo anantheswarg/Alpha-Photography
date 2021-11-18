@@ -66,10 +66,10 @@
 
 </head>
 
-<body ng-app='alphaPhotographyApp' ng-controller="homeController">
+<body ng-app='alphaPhotographyApp' ng-controller="homeController" >
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header >
+    <!-- <div class="hidden-header"></div>-->
+    <header class="fixed-header" style="position:absolute; top:0; left:0;">
                
         <!-- Start  Logo & Naviagtion  -->
         <div class="navbar navbar-default navbar-top">
@@ -104,7 +104,17 @@
                         <li>
                             <a href="#about-content">About Me</a>
                         </li>
+                        <li>
+                            <a class="instgram" href="https://www.instagram.com/alphaphotons/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" class="facebook" href="https://www.facebook.com/alphaphotons"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" class="twitter" href="https://twitter.com/alpha_photons"><i class="fa fa-twitter"></i></a>
+                        </li>
                     </ul>
+                    
                     <!-- End Navigation List -->
                 </div>
             </div>
@@ -115,11 +125,11 @@
     <!-- End Header Section -->
     
     <!-- Start Body -->
-    <div>
+    <div class="body1" >
         <!-- Start Home Page Slider -->
         <section id="home">
             <!-- Carousel -->
-            <div id="main-slide" class="carousel slide" data-ride="carousel">
+            <div id="main-slide" class="carousel slide" data-ride="carousel" >
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#main-slide" data-slide-to="0" class="active"></li>
@@ -187,7 +197,7 @@
         <!-- End Home Page Slider -->
 
         <!-- Start What I do -->
-    <div id="about-content" class="project" angular-lazy-load>
+    <div id="what-i-do" class="project" angular-lazy-load >
         <div class="container">
             <div class="recent-projects">
                 <h4 class="title"><span>What I do</span></h4>
@@ -374,7 +384,7 @@
 
                         <!-- Info - Icons List -->
                         <ul class="icons-list">
-                            <li><i class="fa fa-globe">  </i> <strong>Address:</strong> 403, Praveen Residency, Srinagar Colony, Hyderabad, India. PIN: 500081</li>
+                            <li><i class="fa fa-globe">  </i> <strong>Address:</strong> A 310, Hallmark Vicinia, Beside My Home Avatar, Narsingi, Hyderabad, India</li>
                             <li><i class="fa fa-envelope-o"></i> <strong>Email:</strong> alphaphotography881@gmail.com</li>
                             <li><i class="fa fa-mobile"></i> <strong>Phone:</strong> <strong>+91 9030453421</strong></li>
                         </ul>
@@ -385,19 +395,13 @@
                             <h4>Follow Alpha Photons<span class="head-line"></span></h4>
                             <ul class="social-icons">
                                 <li>
-                                    <a target="_blank" class="facebook" href="http://facebook.com/alphaarts.in"><i class="fa fa-facebook"></i></a>
+                                    <a class="instgram" href="https://www.instagram.com/alphaphotons/"><i class="fa fa-instagram"></i></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" class="twitter" href="UnderConstruction"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" class="facebook" href="https://www.facebook.com/alphaphotons"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                                </li>
-                                <li>
-                                    <a target="_blank" class="flickr" href="#"><i class="fa fa-flickr"></i></a>
-                                </li>
-                                <li>
-                                    <a class="instgram" href="#"><i class="fa fa-instagram"></i></a>
+                                    <a target="_blank" class="twitter" href="https://twitter.com/alpha_photons"><i class="fa fa-twitter"></i></a>
                                 </li>
                             </ul>
                         </div>                        
