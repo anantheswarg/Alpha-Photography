@@ -706,8 +706,9 @@ ul.social-list {
         }
 
         .navbar-default .navbar-nav > li > a {
-            color: #999;
+            color: #000;
             display: block;
+            /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
             font-size: 14px;
             font-weight: 300;
             padding: 28px 15px 28px 15px;

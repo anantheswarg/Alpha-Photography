@@ -90,19 +90,19 @@
                     <!-- Start Navigation List -->
                     <ul id="navbarmenu" class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="active" href="index.html">Home</a>
+                            <a class="active" href="index.html">HOME</a>
                         </li>
                         <li>
-                            <a href="portfolio.html">Portfolio</a>
+                            <a href="portfolio.html">PORTFOLIO</a>
                         </li>
                         <li>
-                            <a href="projects.html">Projects</a>
+                            <a href="projects.html">PROJECTS</a>
                         </li>
                         <li>
-                            <a href="#contact-content">Contact</a>
+                            <a href="#contact-content">CONTACT</a>
                         </li>
                         <li>
-                            <a href="#about-content">About Me</a>
+                            <a href="#about-content">ABOUT ME</a>
                         </li>
                         <li>
                             <a target="_blank" class="instgram" href="https://www.instagram.com/alphaphotons/"><i class="fa fa-instagram"></i></a>
@@ -200,7 +200,7 @@
     <div id="what-i-do" class="project" angular-lazy-load >
         <div class="container">
             <div class="recent-projects">
-                <h4 class="title"><span>What I do</span></h4>
+                <h4 class="title"><span>MY WORK</span></h4>
                 <div class="projects-carousel touch-carousel">
 
                     <div class="portfolio-item item" ng-repeat="x in recentProjects">
@@ -216,7 +216,7 @@
                             <div class="portfolio-details">
                                 <a href="projects.html?id={{x.id}}">
                                     <h4>{{x.title}}</h4>
-                                    <span>{{x.shortDescription}}</span>
+                                    <!-- <span>{{x.shortDescription}}</span> -->
                                 </a>
                             </div>
                         </div>
@@ -232,13 +232,13 @@
 
             <!-- Start Big Heading -->
             <div class="big-title text-center" data-animation="fadeInDown" data-animation-delay="01">
-                <h1><strong>Recent Work</strong></h1>
+                <h1><strong>RECENT WORK</strong></h1>
             </div>
             <!-- End Big Heading -->
             <!-- Start Latest Work Carousel -->
-            <p class="text-center">
+            <!-- <p class="text-center">
                 Here are some of the photos I have shot recently.
-            </p>
+            </p> -->
 
             <ng-image-gallery images="recentworkImages" methods="methods" on-open="openGallery1();" on-close="closed();"></ng-image-gallery>
 
