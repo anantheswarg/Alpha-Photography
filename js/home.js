@@ -32,11 +32,11 @@ app.controller('homeController', function($scope) {
 		{id:4, title:'Travel',image:'images/projects/project4.jpg', shortDescription:'I see me seing me!'},
 		{id:5, title:'Couple',image:'images/projects/project5.jpg', shortDescription:'string Dance = "Life";'},
 		{id:6, title:'Food',image:'images/projects/project6.jpg', shortDescription:"I'm so lonely!!"},
-		{id:7, title:'Art',image:'images/projects/project7.jpg', shortDescription:'Heaven on Earth!'}    	
+		{id:7, title:'Fine Art',image:'images/projects/project7.jpg', shortDescription:'Heaven on Earth!'}    	
     ];
 
 	$scope.testimonials = [
-		{ author:'Neha Sharma', image:'images/testimonials/2.jpg', authorDescription:' - a Techie from Hyderabad, India', content:'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'},
+		{ author: 'Neha Sharma', image:'images/testimonials/2.jpg', authorDescription:' - a Techie from Hyderabad, India', content:'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'},
 		{ author: 'Adarsh Kumar', image: 'images/testimonials/1.jpg', authorDescription: ' - a Salsa dancer from Seattle, US', content: 'I had the chance of working with Ananth on his Seattle trip in 2015 and I cant express that experience in words. He doesnt just take pictures and edit them by throwing in some fancy backgrounds and hand it over to you; he tries to tell a story, portrays a character out of it, paints a personality, a story of real You though his art of photography. He knows how to capture candid moments, expressions, and the things which cant be put into words. It was SO MUCH FUN working with you Ananth. Thanks for those amazing clicks and thanks Alpha Photons!' },
 		{ author: 'Prachi Thaker', image: 'images/testimonials/3.jpg', authorDescription: ' - a Model and an actress from Tollywood', content: 'Alpha Photons by Ananth is a label which has a unique style of work. Just by playing with natural lights  one can create a beautiful output of photos. I loved my photos not only beause i looked pretty in them but the emotion was captured perfectly!' },
 		{ author: 'Meenu Avi', image: 'images/testimonials/4.jpg', authorDescription: ' - a software engineer fom Banglore, India', content: 'We got our pre wedding shoot done from Ananth and it was AMAZING. We loved the approach how he executed the entire shoot. It was both professional and crazy..in a friendly manner. He captured great shots and the end results were fantastic!!' },
