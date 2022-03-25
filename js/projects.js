@@ -38,24 +38,53 @@ app.controller('projectsController', function($scope, $location) {
     	{ id: 8, title: 'Christmas', image: 'images/projects/project8.jpg', shortDescription: "A 'Marvel'ous Christmas!" }
 	];
 
+	$scope.otherProjects = [
+		{id:1, title:'Fashion',image:'images/projects/project1.jpg', shortDescription:'Flaunt your mojo'},
+		{id:2, title:'Celebrities',image:'images/projects/project2.jpg', shortDescription:'Some of the celebrities I have worked with'},
+		{id:3, title:'Kids',image:'images/projects/project3.jpg', shortDescription:'Joy of life'},
+		{id:5, title:'Couple',image:'images/projects/project5.jpg', shortDescription:'Toggether is better'},
+		{id:4, title:'Travel',image:'images/projects/project4.jpg', shortDescription:'I see me seing me!'},
+		{id:6, title:'Food',image:'images/projects/project6.jpg', shortDescription:"Eat to live. Live to Eat"},
+		{id:7, title:'Fine Art',image:'images/projects/project7.jpg', shortDescription:'Art is a way of Life'}    	
+    ];
+
+
+
 	$scope.projects = [
-		{ id:1, title:'Avengers', imageCount:4, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
+		{ id:1, title:'Fashion', imageCount:4, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
 		},
-		{ id:2, title:'Splash', imageCount:6, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
+		{ id:2, title:'Celebrities', imageCount:16, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
 		},
-		{ id:3, title:'Yoga for life', imageCount:9, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
+		{ id:3, title:'Kids', imageCount:9, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
 		},
-		{ id:4, title:'Adarsh', imageCount:6, description:'My ex-colleague and friend. Before going to Seattle second time, I made a deal with him. He would take me to some good photo spots in the city and I would get some good pictures for him. I got to see a lot of new spots'
+		{ id:4, title:'Couple', imageCount:6, description:'My ex-colleague and friend. Before going to Seattle second time, I made a deal with him. He would take me to some good photo spots in the city and I would get some good pictures for him. I got to see a lot of new spots'
 		},
-		{ id:5, title:'Salsa', imageCount:6, description:'It was my first chance to work with Salsa dancers. It was freezing cold in the month of december. Adarsh and Lydia are did a fantastic job posing'
+		{ id:5, title:'Travel', imageCount:6, description:'It was my first chance to work with Salsa dancers. It was freezing cold in the month of december. Adarsh and Lydia are did a fantastic job posing'
 		},
-		{ id:6, title:'Broken Angel', imageCount:6, description:'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
+		{ id:6, title:'Food', imageCount:6, description:'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
 		},
-        { id: 7, title: 'Ladakh', imageCount: 11, description: 'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
-        },
-	    { id: 8, title: 'Christmas', imageCount: 6, description: 'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
+        { id: 7, title: 'Fine Art', imageCount: 11, description: 'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
         }
 	];
+
+	// $scope.projects = [
+	// 	{ id:1, title:'Avengers', imageCount:4, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
+	// 	},
+	// 	{ id:2, title:'Splash', imageCount:6, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
+	// 	},
+	// 	{ id:3, title:'Yoga for life', imageCount:9, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
+	// 	},
+	// 	{ id:4, title:'Adarsh', imageCount:6, description:'My ex-colleague and friend. Before going to Seattle second time, I made a deal with him. He would take me to some good photo spots in the city and I would get some good pictures for him. I got to see a lot of new spots'
+	// 	},
+	// 	{ id:5, title:'Salsa', imageCount:6, description:'It was my first chance to work with Salsa dancers. It was freezing cold in the month of december. Adarsh and Lydia are did a fantastic job posing'
+	// 	},
+	// 	{ id:6, title:'Broken Angel', imageCount:6, description:'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
+	// 	},
+    //     { id: 7, title: 'Ladakh', imageCount: 11, description: 'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
+    //     },
+	//     { id: 8, title: 'Christmas', imageCount: 6, description: 'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
+    //     }
+	// ];
 
 	$scope.title = $scope.projects[projectid - 1].title;
 	$scope.description = $scope.projects[projectid - 1].description;
