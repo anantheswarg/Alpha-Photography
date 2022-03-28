@@ -120,9 +120,12 @@
     }
     </script>-->
     <!-- Start Header Section -->
-    <div class="hidden-header"></div>
-    <header>
+    <!-- End Header Section -->
 
+    <!-- Start Header Section -->
+    <!-- <div class="hidden-header"></div>-->
+    <header class="fixed-header" >
+               
         <!-- Start  Logo & Naviagtion  -->
         <div class="navbar navbar-default navbar-top">
             <div class="container">
@@ -134,21 +137,21 @@
                     <span class="helper"></span>
                     <!-- End Toggle Nav Link For Mobiles -->
                     <a href="index.html">
-                        <img class="logo" alt="" src="images/headerlogo.png">
+                        <img class="logo" alt="" src="images/headerlogo1.png">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse">
-
+                    
                     <!-- Start Navigation List -->
                     <ul id="navbarmenu" class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="index.html">HOME</a>
-                        </li>
-                        <li>
+                        <!-- <li>
+                            <a class="active" href="index.html">HOME</a>
+                        </li> -->
+                        <!-- <li>
                             <a href="portfolio.html"><b>PORTFOLIO</b></a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a class="active" href="projects.html"><b>PROJECTS</b></a>
+                            <a href="projects.html"><b>PROJECTS</b></a>
                         </li>
                         <li>
                             <a href="#contact-content"><b>CONTACT</b></a>
@@ -156,7 +159,6 @@
                         <li>
                             <a href="#about-content"><b>ABOUT ME</b></a>
                         </li>
-                        
                         <li>
                             <a target="_blank" class="instgram" href="https://www.instagram.com/alphaphotons/"><i class="fa fa-instagram"></i></a>
                         </li>
@@ -167,6 +169,7 @@
                             <a target="_blank" class="twitter" href="https://twitter.com/alpha_photons"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
+                    
                     <!-- End Navigation List -->
                 </div>
             </div>
@@ -175,7 +178,6 @@
 
     </header>
     <!-- End Header Section -->
-
     <div>
         <div id="content" style="padding: 10px 0">
             <div class="container">
@@ -185,7 +187,7 @@
                     <!--                 <div class="project-page row">
                      -->
                     <!-- Start Single Project Slider -->
-                    <div class="col-md-8">
+                    <div >
                         <ng-image-gallery images="projectImages" methods="methods" on-open="openGallery1();" on-close="closed();"></ng-image-gallery>
 
                     </div>
@@ -193,7 +195,7 @@
                 </div>
                 <!-- End Single Project Slider -->
                 <!-- Start Project Content -->
-                <div class="project-content col-md-4">
+                <!-- <div class="project-content col-md-4">
                     <h4><span>{{title}}</span></h4>
                     <p>{{description}}</p>
 
@@ -207,14 +209,14 @@
                         <a class="twitter" href="#" ng-click="openTwitter()"><i class="fa fa-twitter"></i></a>
                         <a class="gplus" href="#" ng-click="openGoogle()"><i class="fa fa-google-plus"></i></a>
                     </div>
-                </div>
+                </div> -->
                 <!-- End Project Content -->
 
             </div>
         </div>
     </div>
     <!-- Start What I do -->
-    <div id="about-content" class="project">
+    <div id="projects" class="project">
         <div class="container">
             <div class="recent-projects">
                 <h4 class="title"><span>Other Projects</span></h4>
@@ -232,7 +234,7 @@
                         <div class="portfolio-details">
                             <a href="projects.html?id={{x.id}}">
                                 <h4>{{x.title}}</h4>
-                                <span>{{x.shortDescription}}</span>
+                                <!-- <span>{{x.shortDescription}}</span> -->
                             </a>
                         </div>
                     </div>
