@@ -55,7 +55,7 @@ app.controller('projectsController', function($scope, $location) {
 		},
 		{ id:2, title:'Celebrities', imageCount:16, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
 		},
-		{ id:3, title:'Kids', imageCount:9, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
+		{ id:3, title:'Kids', imageCount:12	, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
 		},
 		{ id:4, title:'Couple', imageCount:6, description:'My ex-colleague and friend. Before going to Seattle second time, I made a deal with him. He would take me to some good photo spots in the city and I would get some good pictures for him. I got to see a lot of new spots'
 		},
