@@ -29,10 +29,10 @@ app.controller('homeController', function($scope) {
 		{id:1, title:'Fashion',image:'images/projects/project1.jpg', shortDescription:'Flaunt your mojo'},
 		{id:2, title:'Celebrities',image:'images/projects/project2.jpg', shortDescription:'Some of the celebrities I have worked with'},
 		{id:3, title:'Kids',image:'images/projects/project3.jpg', shortDescription:'Joy of life'},
-		{id:5, title:'Couple',image:'images/projects/project5.jpg', shortDescription:'Toggether is better'},
-		{id:4, title:'Travel',image:'images/projects/project4.jpg', shortDescription:'I see me seing me!'},
+		{id:4, title:'Couple',image:'images/projects/project4.jpg', shortDescription:'Toggether is better'},
+		{id:5, title:'Travel',image:'images/projects/project5.jpg', shortDescription:'I see me seing me!'},
 		{id:6, title:'Food',image:'images/projects/project6.jpg', shortDescription:"Eat to live. Live to Eat"},
-		{id:7, title:'Fine Art',image:'images/projects/project7.jpg', shortDescription:'Art is a way of Life'}    	
+		// {id:7, title:'Fine Art',image:'images/projects/project7.jpg', shortDescription:'Art is a way of Life'}    	
     ];
 
 	$scope.testimonials = [
