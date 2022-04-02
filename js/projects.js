@@ -61,7 +61,7 @@ app.controller('projectsController', function($scope, $location) {
 		},
 		{ id:5, title:'Travel', imageCount:6, description:'It was my first chance to work with Salsa dancers. It was freezing cold in the month of december. Adarsh and Lydia are did a fantastic job posing'
 		},
-		{ id:6, title:'Food', imageCount:6, description:'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
+		{ id:6, title:'Food', imageCount:10, description:'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
 		},
         { id: 7, title: 'Fine Art', imageCount: 11, description: 'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
         }
