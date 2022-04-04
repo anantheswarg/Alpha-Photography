@@ -51,15 +51,15 @@ app.controller('projectsController', function($scope, $location) {
 
 
 	$scope.projects = [
-		{ id:1, title:'Fashion', imageCount:28, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
+		{ id:1, title:'Fashion', imageCount:32, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
 		},
 		{ id:2, title:'Celebrities', imageCount:16, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
 		},
-		{ id:3, title:'Kids', imageCount:12	, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
+		{ id:3, title:'Kids', imageCount:15, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
 		},
-		{ id:4, title:'Couple', imageCount:6, description:'It was my first chance to work with Salsa dancers. It was freezing cold in the month of december. Adarsh and Lydia are did a fantastic job posing'
+		{ id:4, title:'Couple', imageCount:8, description:'It was my first chance to work with Salsa dancers. It was freezing cold in the month of december. Adarsh and Lydia are did a fantastic job posing'
 		},
-		{ id:4, title:'Travel', imageCount:14, description:'My ex-colleague and friend. Before going to Seattle second time, I made a deal with him. He would take me to some good photo spots in the city and I would get some good pictures for him. I got to see a lot of new spots'
+		{ id:5, title:'Travel', imageCount:18, description:'My ex-colleague and friend. Before going to Seattle second time, I made a deal with him. He would take me to some good photo spots in the city and I would get some good pictures for him. I got to see a lot of new spots'
 		},
 		{ id:6, title:'Food', imageCount:10, description:'Portraying a theme of a girl who is broken. It was the first shoot of Prachi in hyderabad and my first shoot with a model. She went on to become a successful model and an actor later on.'
 		},
@@ -106,10 +106,10 @@ app.controller('projectsController', function($scope, $location) {
 	$scope.projectImage = projectfolder + '1.jpg';
 	$scope.addProjectImages = function()
 	{
-		for(var i =0; i <= $scope.imageCount; i++)
+		for(var i =1; i < $scope.imageCount; i++)
 		{
-			var imgPath = projectfolder + (i + 1) + '.jpg';
-			var thumbPath = projectThumbfolder + (i +1) + '.jpg';
+			var imgPath = projectfolder + (i) + '.jpg';
+			var thumbPath = projectThumbfolder + (i) + '.jpg';
 			$scope.projectImages.push({thumbUrl:thumbPath,url:imgPath});
 		}
 	};

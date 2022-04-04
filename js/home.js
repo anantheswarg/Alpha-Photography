@@ -14,7 +14,7 @@ app.controller('homeController', function($scope) {
     var recentworkThumbFolder = 'images/recentwork/thumb/';
     $scope.recentworkImages = [];
     $scope.loadRecentImages = function () {
-        for (var i = 0; i <= 23; i++) {
+        for (var i = 0; i < 23; i++) {
             var imgPath = recentworkFolder + (i + 1) + '.jpg';
             var thumbPath = recentworkThumbFolder + (i + 1) + '.jpg';
             $scope.recentworkImages.push({ thumbUrl: thumbPath, url: imgPath });
@@ -23,7 +23,7 @@ app.controller('homeController', function($scope) {
 
     $scope.loadRecentImages();
 
-    shuffle($scope.recentworkImages);
+    //shuffle($scope.recentworkImages);
 
 	$scope.recentProjects = [
 		{id:1, title:'Fashion',image:'images/projects/project1.jpg', shortDescription:'Flaunt your mojo'},
