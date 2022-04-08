@@ -958,8 +958,8 @@ ul.social-list {
 }
 
 #main-slide .slider-content {
-    top: 50%;
-    margin-top: -70px;
+    top: 25%;
+    margin-top: 0px;
     left: 0;
     padding: 0;
     text-align: center;
@@ -1031,7 +1031,7 @@ ul.social-list {
 #main-slide .slider-content h2 {
     font-size: 76px;
     font-weight: 100;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #555;
 }
 
@@ -1043,7 +1043,7 @@ ul.social-list {
     font-size: 36px;
     font-weight: 300;
     margin-top: 60px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     color: #555;
 }
