@@ -51,9 +51,9 @@ app.controller('projectsController', function($scope, $location) {
 
 
 	$scope.projects = [
-		{ id:1, title:'Fashion', imageCount:32, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
+		{ id:1, title:'Fashion', imageCount:34, description:'I bought these little avenger toys from US. These pictures are from my weekend free time.'
 		},
-		{ id:2, title:'Celebrities', imageCount:16, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
+		{ id:2, title:'Celebrities', imageCount:18, description:'Always wanted to capture a perfect droplet. These pictures require a flash with hi-speed sync ability and a lot of patience to get the right shot.'
 		},
 		{ id:3, title:'Kids', imageCount:15, description:'Always admired people with special talents. I met Lydia through a common friend in Seattle. She was a Yoga teacher and watching her do yoga poses makes me think... what is she made of?'
 		},
